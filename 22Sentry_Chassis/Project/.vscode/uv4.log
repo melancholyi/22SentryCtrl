@@ -1,0 +1,7 @@
+*** Using Compiler 'V6.16', folder: 'E:\Keil_MDK534\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling ChassisTask.cpp...
+linking...
+Program Size: Code=51108 RO-data=2320 RW-data=12 ZI-data=112708  
+".\Objects\SCURM_SentryGimbalT_2022.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:02

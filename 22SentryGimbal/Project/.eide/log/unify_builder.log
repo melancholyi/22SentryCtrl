@@ -1,0 +1,262 @@
+[2022-03-11 23:04:43]	compilation failed at : "c:\Users\PC\Desktop\sentry\STD\C++\22SentryGimbal_TOP\SentryCode\com\src\VisionCom.cpp", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+./../SentryCode/com/src/VisionCom.cpp:15:2: error: "Please do not use MicroLib!"
+#error "Please do not use MicroLib!"
+ ^
+./../SentryCode/com/src/VisionCom.cpp:361:43: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 14, &sendPack->IMUquaternion[0], sizeof(sendPack->IMUquaternion[0]));         //<CB><C4><U+052A><CA><FD><B2><E2><CA><D4>
+                                       ~~~~~~~~  ^
+./../SentryCode/com/src/VisionCom.cpp:361:78: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 14, &sendPack->IMUquaternion[0], sizeof(sendPack->IMUquaternion[0]));         //<CB><C4><U+052A><CA><FD><B2><E2><CA><D4>
+                                                                          ~~~~~~~~  ^
+./../SentryCode/com/src/VisionCom.cpp:362:43: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 18, &sendPack->IMUquaternion[1], sizeof(sendPack->IMUquaternion[1])); 
+                                       ~~~~~~~~  ^
+./../SentryCode/com/src/VisionCom.cpp:362:78: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 18, &sendPack->IMUquaternion[1], sizeof(sendPack->IMUquaternion[1])); 
+                                                                          ~~~~~~~~  ^
+./../SentryCode/com/src/VisionCom.cpp:363:42: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 22,&sendPack->IMUquaternion[2], sizeof(sendPack->IMUquaternion[2])); 
+                                      ~~~~~~~~  ^
+./../SentryCode/com/src/VisionCom.cpp:363:77: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 22,&sendPack->IMUquaternion[2], sizeof(sendPack->IMUquaternion[2])); 
+                                                                         ~~~~~~~~  ^
+./../SentryCode/com/src/VisionCom.cpp:364:43: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 26, &sendPack->IMUquaternion[3], sizeof(sendPack->IMUquaternion[3])); 
+                                       ~~~~~~~~  ^
+./../SentryCode/com/src/VisionCom.cpp:364:78: error: no member named 'IMUquaternion' in 'MSGsendToUpper_TypeDef'
+        memcpy(sendPacketBuffer + 26, &sendPack->IMUquaternion[3], sizeof(sendPack->IMUquaternion[3])); 
+                                                                          ~~~~~~~~  ^
+9 errors generated.
+
+[2022-03-11 23:05:07]	compilation failed at : "c:\Users\PC\Desktop\sentry\STD\C++\22SentryGimbal_TOP\SentryCode\com\src\VisionCom.cpp", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+./../SentryCode/state/src/stateAction.cpp:88:19: warning: result of comparison of constant 2000 with expression of type 'std::uint8_t' (aka 'unsigned char') is always true [-Wtautological-constant-out-of-range-compare]
+    if(cool_time_ < needToCoolTime) cool_time_++;
+       ~~~~~~~~~~ ^ ~~~~~~~~~~~~~~
+./../SentryCode/state/src/stateAction.cpp:206:18: error: expected unqualified-id
+    if(eUpperCMD == TO_AUTOAIM_MODE_e){
+                 ^
+./../SentryCode/state/src/stateAction.cpp:208:5: error: expected expression
+    }
+    ^
+1 warning and 2 errors generated.
+./../SentryCode/com/src/VisionCom.cpp:15:2: error: "Please do not use MicroLib!"
+#error "Please do not use MicroLib!"
+ ^
+1 error generated.
+
+[2022-03-11 23:05:58]	compilation failed at : "c:\Users\PC\Desktop\sentry\STD\C++\22SentryGimbal_TOP\SentryCode\com\src\VisionCom.cpp", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+./../SentryCode/state/src/stateAction.cpp:88:19: warning: result of comparison of constant 2000 with expression of type 'std::uint8_t' (aka 'unsigned char') is always true [-Wtautological-constant-out-of-range-compare]
+    if(cool_time_ < needToCoolTime) cool_time_++;
+       ~~~~~~~~~~ ^ ~~~~~~~~~~~~~~
+./../SentryCode/state/src/stateAction.cpp:208:5: error: expected expression
+    }
+    ^
+1 warning and 1 error generated.
+./../SentryCode/com/src/VisionCom.cpp:15:2: error: "Please do not use MicroLib!"
+#error "Please do not use MicroLib!"
+ ^
+1 error generated.
+
+[2022-03-11 23:07:53]	compilation failed at : "c:\Users\PC\Desktop\sentry\STD\C++\22SentryGimbal_TOP\SentryCode\com\src\VisionCom.cpp", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0187a] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+./../SentryCode/com/src/VisionCom.cpp:15:2: error: "Please do not use MicroLib!"
+#error "Please do not use MicroLib!"
+ ^
+1 error generated.
+
+[2022-03-11 23:09:50]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-12 15:27:14]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-12 15:29:10]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-18 02:26:53]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-18 08:45:51]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-18 10:10:11]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-18 10:14:32]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-18 10:19:16]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-18 11:08:27]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-18 11:20:01]	compilation failed at : "c:\Users\PC\Desktop\sentry\STD\C++\22SentryGimbal_TOP\SentryCode\Task\src\IMUTask.cpp", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0187a] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+./../SentryCode/Task/src/IMUTask.cpp:16:66: error: use of undeclared identifier 'GMYAW_e'
+                printf("A:%.2f,%.2f\n",get_imu_wz_yaw_rpm(),getMotorMsgFromCan(GMYAW_e)->speed);
+                                                                               ^
+1 error generated.
+
+[2022-03-18 18:45:58]	compilation failed at : "c:\Users\PC\Desktop\sentry\STD\C++\22SentryGimbal_TOP\SentryCode\motor\src\control.cpp", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x0187a] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+./../SentryCode/motor/src/control.cpp:203:1: error: expected unqualified-id
+^
+1 error generated.
+
+[2022-03-19 09:41:12]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-19 11:44:39]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-19 12:10:06]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-19 14:09:24]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-19 14:10:45]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-19 14:24:54]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-19 18:01:30]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-19 18:01:34]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-23 01:16:31]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
+[2022-03-23 01:40:32]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01a1e] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+Fatal error: L6115U: File misc.o contains section .llvmbc with LLVM bitcode but LTO mode is not enabled.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+
+
